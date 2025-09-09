@@ -2,14 +2,29 @@ header * {
   color: var(--color-text-main);
 }
 
+header {
+  display: flex;
+  padding: 20px 80px;
+  justify-content: space-between;
+  align-items: center;
+  align-self: stretch;
+  ul {
+    list-style: none;
+  }
+  a {
+    text-decoration: none;
+  }
+}
+
 .header-switch-mode-btn {
   color: var(--color-text-main);
+  background: var(--color-bg-grey);
   background: transparent;
 }
 
 .header-dark {
   border: 1px solid var(--color-black, #000);
-  background: var(--color-bg-grey, #515050);
+  background: var(--color-grey, #515050);
 }
 
 .header-light {
@@ -17,11 +32,32 @@ header * {
   background: var(--color--white, #fff);
 }
 
-.header-atlas {
-  color: var(--Text-secondary, #000);
+.header-logo {
   font-family: "Caesar Dressing";
   font-size: 40px;
-  font-style: normal;
   font-weight: 400;
-  line-height: normal;
+}
+
+.header-text {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  font-family: "Bubbler One";
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.header-button {
+  display: flex;
+  padding: 8px 12px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
 }

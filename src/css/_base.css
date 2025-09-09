@@ -13,15 +13,6 @@ video {
   display: block;
 }
 
-body {
-  display: flex;
-  width: 393px;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  gap: 20px;
-}
-
 .row + .row {
   margin-top: 16px;
 }
@@ -35,8 +26,8 @@ body {
 }
 
 html {
-  --color-grey: #bcbfc3;
-  --color-bg-dark-grey: #515050;
+  --color-grey: #515050;
+  --color-bg-grey: #bcbfc3;
   --color-bg-light: #fff;
   --color-blue: #279ef8;
   --color-yellow: #f8af27;
