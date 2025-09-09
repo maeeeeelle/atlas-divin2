@@ -3,5 +3,5 @@
 }
 
 .l-footer {
-  background: var(--Background-components, #bcbfc3);
+  background: var(--color-bg-grey);
 }

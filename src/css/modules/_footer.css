@@ -60,6 +60,12 @@ footer {
   }
 }
 
+.footer-switch-mode-btn {
+  color: var(--color-text-main);
+  background: var(--color-bg-grey);
+  background: transparent;
+}
+
 .footer-nav {
   display: flex;
   justify-content: space-between;
