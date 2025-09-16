@@ -8,11 +8,30 @@ a {
   color: inherit;
 }
 
+h2 {
+  color: var(--Text-main, #515050);
+  font-family: "Caesar Dressing";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+h3 {
+  font-family: "Caesar Dressing";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  background-color: var(--color-bg-light);
+  position: absolute;
+  top: 410px;
+}
+
 img,
 video {
   display: block;
 }
-
+/* 
 .row + .row {
   margin-top: 16px;
 }
@@ -23,7 +42,7 @@ video {
   padding-bottom: 12px;
   background-color: rgba(86, 61, 124, 0.15);
   border: 1px solid rgba(86, 61, 124, 0.2);
-}
+} */
 
 html {
   --color-grey: #515050;
