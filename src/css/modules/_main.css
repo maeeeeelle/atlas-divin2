@@ -100,8 +100,8 @@
   align-items: flex-start;
   position: absolute;
   left: 0;
-  bottom: 0;
-  background: var(--Background, #fff);
+  bottom: 75;
+  background-color: var(--color-bg-light);
 }
 .main-article {
   display: flex;
@@ -110,8 +110,8 @@
 }
 .main-article-blue {
   border-radius: 8px;
-  border: 2px solid var(--Blue, #279ef8);
-  background: var(--Background, #fff);
+  border: 2px solid var(--color-blue, #279ef8);
+  background-color: var(--color-bg-light);
 }
 
 .main-article-image {
@@ -142,7 +142,6 @@
   gap: 12px;
 }
 .main-category p {
-  color: var(--Text-main, #515050);
   font-family: "Bubbler One";
   font-size: 24px;
   font-style: normal;
@@ -165,7 +164,7 @@
   align-self: stretch;
   border-radius: 8px;
   p {
-    color: var(--Background, #fff);
+    color: var(--color-filtre-main);
     font-family: "Caesar Dressing";
     font-size: 20px;
     font-style: normal;
@@ -174,16 +173,16 @@
   }
 }
 .blue {
-  background: var(--Blue, #279ef8);
+  background: var(--color-blue, #279ef8);
 }
 .yellow {
-  background: var(--Yellow, #f8af27);
+  background: var(--color-yellow, #f8af27);
 }
 
 .green {
-  background: var(--Green, #12965d);
+  background: var(--color-green, #12965d);
 }
 
 .red {
-  background: var(--Red, #f82727);
+  background: var(--color-red, #f82727);
 }

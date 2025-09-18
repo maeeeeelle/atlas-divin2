@@ -52,16 +52,19 @@ html {
   --color-cream: #f7f6f6;
   --color-black: #000;
   --color-text-main: #000;
+  --color-filtre-main: #fff;
 }
 
 html[data-theme="dark"] {
   --color-bg-grey: #515050;
   --color-white: #fff;
-  --color-pastel-blue: #a3d7ff;
-  --color-pastel-yellow: #f7f43e;
-  --color-pastel-green: #76e5b5;
-  --color-pastel-red: #f8a7a7;
+  --color-bg-light: #515050;
+  --color-blue: #a3d7ff;
+  --color-yellow: #f7f43e;
+  --color-green: #76e5b5;
+  --color-red: #f8a7a7;
   --color-text-main: #fff;
+  --color-filtre-main: #000;
 }
 
 html[data-theme="light"] #light-mode-btn {
