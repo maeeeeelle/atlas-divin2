@@ -2,6 +2,7 @@
   font-family: "Caesar Dressing";
   font-size: 40px;
   font-weight: 400;
+  color: var(--color-white);
 }
 
 .main-section {
@@ -12,7 +13,7 @@
   align-items: flex-start;
   gap: 24px;
   border-radius: 8px;
-  border: 2px solid var(--Text-main, #515050);
+  border: 2px solid var(--color-white);
 }
 
 .main-section-all-text {
@@ -21,6 +22,8 @@
   align-items: flex-start;
   gap: 16px;
   align-self: stretch;
+  border-radius: 8px;
+  border: 2px solid var(--color-white);
 }
 .main-section-title {
   display: flex;
@@ -29,7 +32,7 @@
   gap: 4px;
   align-self: stretch;
   p {
-    color: var(--Text-main, #515050);
+    color: var(--color-white);
     font-family: "Bubbler One";
     font-size: 20px;
     font-style: normal;
@@ -44,7 +47,7 @@
   align-items: flex-start;
   align-self: stretch;
   p {
-    color: var(--Text-main, #515050);
+    color: var(--color-white);
     font-family: "Bubbler One";
     font-size: 20px;
     font-style: normal;
@@ -62,7 +65,7 @@
     text-decoration: visible;
   }
   p {
-    color: var(--Text-main, #515050);
+    color: var(--color-white);
     font-family: "Bubbler One";
     font-size: 20px;
     font-style: normal;
@@ -70,7 +73,7 @@
   }
 }
 .main-god-day {
-  color: var(--Text-main, #515050);
+  color: var(--color-white);
   font-family: "Caesar Dressing";
   font-size: 16px;
   font-style: normal;
@@ -92,6 +95,7 @@
     display: flex;
     padding: 8px 12px;
     align-items: flex-start;
+    color: var(--color-white);
   }
 }
 .main-article-god {
@@ -163,23 +167,48 @@
   }
 }
 
+.blue {
+  background: var(--color-blue);
+}
+.yellow {
+  background: var(--color-yellow);
+}
+.green {
+  background: var(--color-green);
+}
+.red {
+  background: var(--color-red);
+}
+
 .main-article-blue {
   border: 2px solid var(--color-blue, #279ef8);
   stroke: var(--color-blue, #279ef8);
+  h3 {
+    color: var(--color-blue);
+  }
 }
 .main-article-yellow {
   border: 2px solid var(--color-yellow, #f8af27);
   stroke: var(--color-yellow, #f8af27);
+  h3 {
+    color: var(--color-yellow);
+  }
 }
 
 .main-article-green {
   border: 2px solid var(--color-green, #12965d);
   stroke: var(--color-green, #12965d);
+  h3 {
+    color: var(--color-green);
+  }
 }
 
 .main-article-red {
   border: 2px solid var(--color-red, #f82727);
   stroke: var(--color-red, #f82727);
+  h3 {
+    color: var(--color-red);
+  }
 }
 .main-article {
   display: flex;
@@ -187,4 +216,13 @@
   flex-direction: column;
   position: relative;
   background: var(--color-bg-light);
+  p {
+    color: var(--color-white);
+  }
+}
+
+.main-switchc-mode-btn {
+  display: flex;
+  padding: 0 80px;
+  align-self: stretch;
 }
